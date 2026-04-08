@@ -126,10 +126,35 @@ img {
 		max-height: 100vh;
 		object-fit: contain;
 	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
 }
 
 @page {
 	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
 }
 
 .collection-content {
@@ -143,19 +168,16 @@ img {
 
 .column-list {
 	display: flex;
-	justify-content: space-between;
+	gap: 46px;
 }
 
 .column {
-	padding: 0 1em;
+	min-width: 0;
+	overflow: hidden;
 }
 
-.column:first-child {
-	padding-left: 0;
-}
-
-.column:last-child {
-	padding-right: 0;
+.column > *:first-child {
+	margin-top: 0;
 }
 
 .table_of_contents-item {
@@ -251,6 +273,14 @@ ul > li {
 
 ol {
 	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
 }
 
 ol > li {
@@ -710,5 +740,4 @@ blockquote.quote-large {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="2e15806a-4444-80e3-a642-ee2bfc6b8cbe" class="page sans"><header><img class="page-cover-image" src="%D0%93%D0%90%D0%A1%D0%9E%20-%20%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA/2026-01-07_22-57-07.jpeg" style="object-position:center 50%"/><h1 class="page-title" dir="auto">ГАСО - Смоленск</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h2 id="2e15806a-4444-80d2-93f2-e15e92abe885" class="">🏃Дела для просмотра</h2></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-8052-b586-ec44ad96cc9d" class="">ф. Р-47. оп.1  д.1513. Фрейдсон Иосель Нохимович, гр. Могилевской губернии, Оршанского уезда, м. Лезны, Хасин Абрам Исаакович, служащий хозяйственного отдела Смоленского Совдепа Злоупотребления по службе | 24.01.1918-26.07.1918 | 87 листов</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-808a-afd9-f7f7c63e531e" class="">ф.2 оп.90 д.362  Сведения о евреях проживающих в Смоленской губернии.  | 01.05.1903 | 38 листов</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80f2-b147-eb076eaab109" class="">ф.1 оп.6 1910 год д.214 Дело с нарушении обязательного постановления мещанином М. А. Фрейдсоном и Ю. Р. Глушкиным (постановление № 21) (Стол № 4) | 03.06.1910 - 01.08.1910 | 10 листов</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80b3-aa0b-ed934a194415" class="">ф.1 оп.6 1911 год д.146 Дело о нарушении обязательных постановлений М. Дозорцем, С. Яхмиелем, Лейзером Фрейдсоном и Х. Хаченсоном (постановление № 30) (Стол № 3) | 02.05.1911 - 16.06.1911 | 26 листов</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80f5-ad2d-c21aebd87434" class="">ф.1 оп.1 1812 год д.87г Дело о взыскании денег по акту мещанином П. Фрейдзоном с майора С.И. Швайковского | 18.02.1812 - 29.05.1812 | 24 листа</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-805f-9eff-eaf0c4d6d694" class="">ф.1 оп.8 д.733 Дело о проведении дознания об организации незаконной вырубки леса Гениным 3., и Безсмертным Л., мещанами города Витебска | 15.12.1914 - 10.01.1915 | 5 листов</p></div><div style="display:contents" dir="auto"><p id="2e55806a-4444-8025-a8e9-c0e4d3cc9ea0" class="">ф.2 оп.90 д.512 Сведения о евреях мещанах и отставных нижних чанах за 1903 год</p></div><div style="display:contents" dir="auto"><p id="2e55806a-4444-8050-8108-dc74dde4fac8" class="">ф.2 оп.90 д.515 Сведения о евреях проживающих в Смоленском уезда за 2-ю половину 1902 года</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8008-88ed-e5ecd8ee1733" class="">Ф.1 оп.5 д.204 - Дело о разъяснении циркуляра МВД о невысылке из губерний евреев, не имеющих права на жительство вне черти еврейской оседлости, но проживавших в ней до З-го 1880 года</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8025-9ba4-e899c2b7799e" class="">Ф. Р-743 оп.1 д. 143  .... Списки рабочих и служащих предприятий и организаций города Смоленска за 1919 год</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8032-85fb-ee4b20073efe" class="">Ф.2 оп. 92 д. 147  ... евреии с подстрекательством</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-80b5-8262-dbc02e71d395" class="">Ф.2 оп. 90. Д. 174 - Дело о сообщении в МВД о количестве раввинов, помощников и образовательном цензе каждого из них (35 листов)</p></div><div style="display:contents" dir="auto"><h2 id="2e15806a-4444-80b8-baa9-d44734b86e61" class=""><strong>✅</strong> Дела просмотренные</h2></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-809e-b19d-f189d867cb97" class="">ф.86 оп.1 д.1068 Списки ратников ополчения 1-го и 2-го разрядов, состоящих на службе на кожевенном заводе Фрейдсона и пользующихся отсрочкой призыва по мобилизации (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80e2-b975-c600d9f1c502" class="">ф.Р-47. оп.1 д.1222 Фрейдсон Иосиф Наумович, бывший владелец фабрики обуви в г. Смоленске Саботаж, злоупотребления | 28.01.1920-05.04.1921 | 229 листов (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80b6-8ace-d62c6da8fb6e" class="">ф.Р-64. оп.2 д.457. Документы (заявление, план владения, акт обследования) о выдаче Смоленским губкоммунотделом справки-разрешения гр. Фрейдсону И.Н. на ремонт дома на углу улиц Армянской и Соборной в г. Смоленске за 1922 год | 1922 | 8 листов (получена копия)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80cb-9a1d-e682bda5ab30" class="">
-</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</style></head><body><article id="2e15806a-4444-80e3-a642-ee2bfc6b8cbe" class="page sans"><header><img class="page-cover-image" src="%D0%93%D0%90%D0%A1%D0%9E%20-%20%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA/2026-01-07_22-57-07.jpeg" style="object-position:center 50%"/><h1 class="page-title" dir="auto">ГАСО - Смоленск</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h2 id="2e15806a-4444-80d2-93f2-e15e92abe885" class="">🏃Дела для просмотра</h2></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80f2-b147-eb076eaab109" class="">ф.1 оп.6 1910 год д.214 Дело с нарушении обязательного постановления мещанином М. А. Фрейдсоном и Ю. Р. Глушкиным (постановление № 21) (Стол № 4) | 03.06.1910 - 01.08.1910 | 10 листов</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80f5-ad2d-c21aebd87434" class="">ф.1 оп.1 1812 год д.87г Дело о взыскании денег по акту мещанином П. Фрейдзоном с майора С.И. Швайковского | 18.02.1812 - 29.05.1812 | 24 листа</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-805f-9eff-eaf0c4d6d694" class="">ф.1 оп.8 д.733 Дело о проведении дознания об организации незаконной вырубки леса Гениным 3., и Безсмертным Л., мещанами города Витебска | 15.12.1914 - 10.01.1915 | 5 листов</p></div><div style="display:contents" dir="auto"><p id="2e55806a-4444-8025-a8e9-c0e4d3cc9ea0" class="">ф.2 оп.90 д.512 Сведения о евреях мещанах и отставных нижних чанах за 1903 год</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8008-88ed-e5ecd8ee1733" class="">Ф.1 оп.5 д.204 - Дело о разъяснении циркуляра МВД о невысылке из губерний евреев, не имеющих права на жительство вне черти еврейской оседлости, но проживавших в ней до З-го 1880 года</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8025-9ba4-e899c2b7799e" class="">Ф. Р-743 оп.1 д. 143  .... Списки рабочих и служащих предприятий и организаций города Смоленска за 1919 год</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-8032-85fb-ee4b20073efe" class="">Ф.2 оп. 92 д. 147  ... евреии с подстрекательством</p></div><div style="display:contents" dir="auto"><h2 id="2e15806a-4444-80b8-baa9-d44734b86e61" class=""><strong>✅</strong> Дела просмотренные</h2></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-809e-b19d-f189d867cb97" class="">ф.86 оп.1 д.1068 Списки ратников ополчения 1-го и 2-го разрядов, состоящих на службе на кожевенном заводе Фрейдсона и пользующихся отсрочкой призыва по мобилизации (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80e2-b975-c600d9f1c502" class="">ф.Р-47. оп.1 д.1222 Фрейдсон Иосиф Наумович, бывший владелец фабрики обуви в г. Смоленске Саботаж, злоупотребления | 28.01.1920-05.04.1921 | 229 листов (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80b6-8ace-d62c6da8fb6e" class="">ф.Р-64. оп.2 д.457. Документы (заявление, план владения, акт обследования) о выдаче Смоленским губкоммунотделом справки-разрешения гр. Фрейдсону И.Н. на ремонт дома на углу улиц Армянской и Соборной в г. Смоленске за 1922 год | 1922 | 8 листов (получена копия)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-808a-afd9-f7f7c63e531e" class="">ф.2 оп.90 д.362  Сведения о евреях проживающих в Смоленской губернии.  | 01.05.1903 | 38 листов (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e55806a-4444-8050-8108-dc74dde4fac8" class="">ф.2 оп.90 д.515 Сведения о евреях проживающих в Смоленском уезда за 2-ю половину 1902 года (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2f05806a-4444-80b5-8262-dbc02e71d395" class="">Ф.2 оп. 90. Д. 174 - Дело о сообщении в МВД о количестве раввинов, помощников и образовательном цензе каждого из них (35 листов) (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-8052-b586-ec44ad96cc9d" class="">ф. Р-47. оп.1  д.1513. Фрейдсон Иосель Нохимович, гр. Могилевской губернии, Оршанского уезда, м. Лезны, Хасин Абрам Исаакович, служащий хозяйственного отдела Смоленского Совдепа Злоупотребления по службе | 24.01.1918-26.07.1918 | 87 листов (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="2e15806a-4444-80b3-aa0b-ed934a194415" class="">ф.1 оп.6 1911 год д.146 Дело о нарушении обязательных постановлений М. Дозорцем, С. Яхмиелем, Лейзером Фрейдсоном и Х. Хаченсоном (постановление № 30) (Стол № 3) | 02.05.1911 - 16.06.1911 | 26 листов (просмотрено в архиве)</p></div><div style="display:contents" dir="auto"><p id="33c5806a-4444-807e-a048-d16e1a9f69ff" class="">ф.2 оп. 89 д. 249 Рубин Лейбов Фрейдсон. Смоленск. </p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

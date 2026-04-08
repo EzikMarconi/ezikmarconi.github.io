@@ -126,10 +126,35 @@ img {
 		max-height: 100vh;
 		object-fit: contain;
 	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
 }
 
 @page {
 	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
 }
 
 .collection-content {
@@ -143,19 +168,16 @@ img {
 
 .column-list {
 	display: flex;
-	justify-content: space-between;
+	gap: 46px;
 }
 
 .column {
-	padding: 0 1em;
+	min-width: 0;
+	overflow: hidden;
 }
 
-.column:first-child {
-	padding-left: 0;
-}
-
-.column:last-child {
-	padding-right: 0;
+.column > *:first-child {
+	margin-top: 0;
 }
 
 .table_of_contents-item {
@@ -251,6 +273,14 @@ ul > li {
 
 ol {
 	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
 }
 
 ol > li {
@@ -710,5 +740,5 @@ blockquote.quote-large {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="2f85806a-4444-805c-96a8-fa1bba5791a1" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🧮</span></div><h1 class="page-title" dir="auto">Расходы</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="ltr"><table id="2f85806a-4444-80ff-9523-c49db995dd7f" class="simple-table"><tbody><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-800c-854f-f33d75fe182c"><td id="}LLV" class="" style="width:236.33333333333334px">Тест генотека для папы</td><td id="qycP" class="" style="width:236.33333333333334px">7537</td><td id="sAlh" class="">12.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-803d-9925-cfde82b500cb"><td id="}LLV" class="" style="width:236.33333333333334px">Запрос ЦГАМ Генин Израиль</td><td id="qycP" class="" style="width:236.33333333333334px">896</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-80f1-88de-cad13498724b"><td id="}LLV" class="" style="width:236.33333333333334px">Запрос ЦГАМ Иоффе</td><td id="qycP" class="" style="width:236.33333333333334px">1603</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-809a-a9ba-ea5846f8d343"><td id="}LLV" class="" style="width:236.33333333333334px">Запрос ЦХСФ Фрейдсон Залман</td><td id="qycP" class="" style="width:236.33333333333334px">3990</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2fe5806a-4444-80ea-85bf-dd463cc67ef0"><td id="}LLV" class="" style="width:236.33333333333334px">Тест генотека для мамы</td><td id="qycP" class="" style="width:236.33333333333334px">6333</td><td id="sAlh" class="">05.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3035806a-4444-800c-92c2-feff089195fe"><td id="}LLV" class="" style="width:236.33333333333334px">Справки ЗАГС Фрейдсоны</td><td id="qycP" class="" style="width:236.33333333333334px">900</td><td id="sAlh" class="">10.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-8032-87ac-c528879b26bf"><td id="}LLV" class="" style="width:236.33333333333334px">доступ к hryc.by</td><td id="qycP" class="" style="width:236.33333333333334px">400</td><td id="sAlh" class="">13.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-80f6-ae12-eacccdb5e3c4"><td id="}LLV" class="" style="width:236.33333333333334px">РГАДА АИС</td><td id="qycP" class="" style="width:236.33333333333334px">90</td><td id="sAlh" class="">13.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-8004-98b4-f2319cb06e0c"><td id="}LLV" class="" style="width:236.33333333333334px">архив СПБ</td><td id="qycP" class="" style="width:236.33333333333334px">70</td><td id="sAlh" class="">13.02.2026</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2f85806a-4444-803b-b918-da2ed551c67a" class="">
+</style></head><body><article id="2f85806a-4444-805c-96a8-fa1bba5791a1" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🧮</span></div><h1 class="page-title" dir="auto">Расходы</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="ltr"><table id="2f85806a-4444-80ff-9523-c49db995dd7f" class="simple-table"><tbody><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-800c-854f-f33d75fe182c"><td id="}LLV" class="" style="width:318.3249969482422px">Тест генотека для папы</td><td id="qycP" class="" style="width:104.32499694824219px">7537</td><td id="sAlh" class="">12.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-803d-9925-cfde82b500cb"><td id="}LLV" class="" style="width:318.3249969482422px">Запрос ЦГАМ Генин Израиль</td><td id="qycP" class="" style="width:104.32499694824219px">896</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-80f1-88de-cad13498724b"><td id="}LLV" class="" style="width:318.3249969482422px">Запрос ЦГАМ Иоффе</td><td id="qycP" class="" style="width:104.32499694824219px">1603</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2f85806a-4444-809a-a9ba-ea5846f8d343"><td id="}LLV" class="" style="width:318.3249969482422px">Запрос ЦХСФ Фрейдсон Залман</td><td id="qycP" class="" style="width:104.32499694824219px">3990</td><td id="sAlh" class="">30.01.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="2fe5806a-4444-80ea-85bf-dd463cc67ef0"><td id="}LLV" class="" style="width:318.3249969482422px">Тест генотека для мамы</td><td id="qycP" class="" style="width:104.32499694824219px">6333</td><td id="sAlh" class="">05.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3035806a-4444-800c-92c2-feff089195fe"><td id="}LLV" class="" style="width:318.3249969482422px">Справки ЗАГС Фрейдсоны</td><td id="qycP" class="" style="width:104.32499694824219px">900</td><td id="sAlh" class="">10.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-8032-87ac-c528879b26bf"><td id="}LLV" class="" style="width:318.3249969482422px">доступ к hryc.by</td><td id="qycP" class="" style="width:104.32499694824219px">400</td><td id="sAlh" class="">13.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-80f6-ae12-eacccdb5e3c4"><td id="}LLV" class="" style="width:318.3249969482422px">РГАДА АИС</td><td id="qycP" class="" style="width:104.32499694824219px">90</td><td id="sAlh" class="">13.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="3075806a-4444-8004-98b4-f2319cb06e0c"><td id="}LLV" class="" style="width:318.3249969482422px">архив СПБ</td><td id="qycP" class="" style="width:104.32499694824219px">70</td><td id="sAlh" class="">13.02.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="31d5806a-4444-80cf-929d-f3bae81f648f"><td id="}LLV" class="" style="width:318.3249969482422px">Копии документов в ГАСО</td><td id="qycP" class="" style="width:104.32499694824219px">2700</td><td id="sAlh" class="">02.03.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="31d5806a-4444-8007-b5c4-dfb8bdfdb243"><td id="}LLV" class="" style="width:318.3249969482422px">Лукояновский уезд МК 1914</td><td id="qycP" class="" style="width:104.32499694824219px"> 500</td><td id="sAlh" class="">04.03.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="31d5806a-4444-803e-b8ca-d58904852938"><td id="}LLV" class="" style="width:318.3249969482422px">Тест генотек для Галины Павловны</td><td id="qycP" class="" style="width:104.32499694824219px">6886</td><td id="sAlh" class="">08.03.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="33c5806a-4444-809c-96d5-e5ff5e488f7b"><td id="}LLV" class="" style="width:318.3249969482422px">Запрос ГАСО</td><td id="qycP" class="" style="width:104.32499694824219px">490</td><td id="sAlh" class="">06.04.2026</td></tr></div><div style="display:contents" dir="ltr"><tr id="33c5806a-4444-801f-8b5f-d938fe4d3114"><td id="}LLV" class="" style="width:318.3249969482422px">Оплата лекции по истории черты оседлости</td><td id="qycP" class="" style="width:104.32499694824219px">500</td><td id="sAlh" class="">08.04.2026</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2f85806a-4444-803b-b918-da2ed551c67a" class="">
 </p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
